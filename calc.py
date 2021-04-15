@@ -1,3 +1,3 @@
-def add(x, y):
+def calc(x, y):
     total = x + y
-    print(total)
+    diff = x - y
