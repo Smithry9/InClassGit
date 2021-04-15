@@ -1,2 +1,3 @@
-def calc(x, y):
-    pass
+def add(x, y):
+    total = x + y
+    print(total)
