@@ -1,7 +1,7 @@
 import random
 
 def generate(x):
-    pass
+    for i in range(x):
 
 
 print("Enter a length for the password: ", end="")
