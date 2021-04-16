@@ -1,0 +1,2 @@
+def divisors(x):
+    pass
