@@ -6,6 +6,9 @@ def divisors(x):
             divisorList.append(currentNum)
         currentNum -= 1
 
+    print("Divisors: ", end="")
+    print(divisorList)
+
 print("Enter an integer: ", end="")
 num = int(input())
 divisors(num)
