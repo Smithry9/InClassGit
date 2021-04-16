@@ -3,3 +3,4 @@ def divisors(x):
 
 print("Enter an integer: ", end="")
 num = int(input())
+divisors(num)
