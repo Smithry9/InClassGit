@@ -10,8 +10,12 @@ def generate(x):
             char = chr(char)
         elif(charType == 2):
             #Add a Uppercase Letter
+            char = randInt(65,90)
+            char = chr(char)
         else:
-            #Add a Lowercase Letter            
+            #Add a Lowercase Letter
+            char = randInt(97,122)
+            char = chr(char)
 
 print("Enter a length for the password: ", end="")
 num = int(input())
