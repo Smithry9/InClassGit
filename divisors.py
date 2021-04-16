@@ -1,7 +1,9 @@
 def divisors(x):
     currentNum = x
+    divisorList = []
     while(currentNum > 0):
-        
+        if(x % currentNum == 0):
+            
 
 print("Enter an integer: ", end="")
 num = int(input())
