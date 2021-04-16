@@ -18,6 +18,7 @@ def generate(x):
             char = chr(char)
 
         password += char
+    print("Password of length " + str(x) + ": ", end = "")
     print(password)
 
 print("Enter a length for the password: ", end="")
